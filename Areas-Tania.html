@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <title>Áreas de interés</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        
+        <link href="style.css" rel="stylesheet">
+        <link rel="icon" href="/multimedia/iconos/ziaral.png" type="image/png" sizes="152x152">
+        <!--fuentes-->
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/estilos.css">
+
+        
+        
+    </head>
+    
+    <body>
+        
+        <header class="header">
+            <div class="container logo-nav-container">
+                <a href="Inicio-Tania.html">
+                    <img src="multimedia/iconos/ziaral.png"
+                         widt="50"
+                         height="50">
+                </a>
+                <span class="menu-icon">Ver menú</span>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="Inicio-Tania.html">Inicio</a></li>
+                        <li><a href="Portafolio-Tania.html">Portafolio</a></li>
+                        <li><a href="Areas-Tania.html">Áreas de Interés</a></li>
+                        <li><a href="Contacto-Tania.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        
+        
+        <main class="main">
+            
+            <header class="titulo">
+                <img src="multimedia/Encabezados/aren.png">
+            </header>
+            
+            <div class="container">
+                <h1 align="center">Título</h1>
+            </div>
+            
+        <div align="center">
+            <ul style="list-style-position: inside" align="">
+                <li>Joyería</li>
+                <li> Interiorismo</li>
+                <li>Escenografía</li>
+                <li>Layout de producción</li>
+                <li>Elaboración de planos constructivos</li>
+            </ul>    
+        </div>
+                
+            <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(multimedia/carrousell/img1.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(multimedia/carrousell/img2.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(multimedia/carrousell/img3.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(multimedia/carrousell/img4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(multimedia/carrousell/img5.png)"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+            <!-- Swiper -->
+            
+            
+            
+           
+            
+        </main>
+        
+        <footer class="footer">
+            <div>
+                <p>Esta página fue creada por Tania</p>
+                <a href="Inicio-Tania.html">
+                    <img src="multimedia/iconos/ziaral.png" width=50px height=50px align="center">
+                </a>
+                
+            </div>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js
+"></script>
+        <script src="scripts.js"></script>
+        
+    </body>
+</html>
